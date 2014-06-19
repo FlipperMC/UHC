@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -285,7 +286,9 @@
 				var query = window.location.search.replace(regex, "$1").replace(/&$/, '')
 				window.location = (query.length > 2 ? query + "&" : "?") + key + "=" + val
 			}
+
 		</script>
-		<script type="text/javascript" src="http://www.se.reddit.com/r/ultrahardcore/search.json?q=flair%3AUpcoming_Match&restrict_sr=on&limit=100&jsonp=parseMatches"></script>	
+
+		<script type="text/javascript" src="http://www.reddit.com/r/ultrahardcore/search.json?q=flair%3AUpcoming_Match&restrict_sr=on&limit=500&sort=new&jsonp=parseMatches"></script>	
 	</body>
 </html>
